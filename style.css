@@ -1,0 +1,28 @@
+.nav-link {
+    font-family: Lobster, "Lobster Two", cursive;
+}
+.navbar-brand {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: darkgreen;
+}
+h1 {
+    text-align: center;
+    color: lightblue;
+}
+.scroller {
+    scrollbar-color: purple lightgreen;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+.scroller::-webkit-scrollbar-track  {
+    background-color: purple;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+    height: 30px;
+    background-color: lightgreen;
+}
