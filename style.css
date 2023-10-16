@@ -25,6 +25,11 @@ p {
     text-size-adjust: auto;
     font-size: 25px;
 }
+h6 {
+    text-align: center;
+    text-size-adjust: auto;
+    color: #D0BDF0;
+}
 
 /*Images, Videos, Etc*/
 .center {
