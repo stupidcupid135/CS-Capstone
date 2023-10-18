@@ -5,11 +5,11 @@ clearInterval(id);
 images.forEach((img)=>{sources.push(img.src);});
 
 
-images.forEach((img)=>{img.onmouseenter = (img)=>{img.src = "./PerryThePlatypus.png";console.log(img.src);};});
+images.forEach((img)=>{img.onmouseenter = ()=>{img.src = "PerryThePlatypus.png";};});
 images.forEach(mouseLeave);
 
 function mouseLeave(img, index) {
     let oldSrc = sources[index];
-    img.onmouseleave = (img)=>{(img.src = oldSrc);console.log(img.src);};
+    img.onmouseleave = ()=>{(img.src = oldSrc);};
     
 }
